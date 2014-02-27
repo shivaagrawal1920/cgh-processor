@@ -202,7 +202,7 @@
                         <keystore>${basedir}/keystore</keystore>
                         <keypass>CghProcessor</keypass>
                         <storepass>CghProcessor</storepass>
-                        <alias>cghKeystore</alias>
+                        <alias>cghpro</alias>
                         <verify>true</verify>
                     </sign>
                     <unsign>false</unsign>
