@@ -31,7 +31,6 @@
         <webstart-offline-allowed>true</webstart-offline-allowed>
         <webstart-security-all-permissions>true</webstart-security-all-permissions>
         <webstart-codebase-url>$$codebase</webstart-codebase-url>
-        <changeLogFile>uk/co/techblue/cgh/liquibase/changeset-1.0.xml</changeLogFile>
     </properties>
 
 
@@ -137,6 +136,16 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.3</version>
             </plugin>
+            <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>webstart-maven-plugin</artifactId>
+                    <version>1.0-beta-4-techblue</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>1.2.1</version>
+                </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
